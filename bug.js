@@ -1,0 +1,1 @@
+This bug occurs when using the `FlatList` component in React Native with a large dataset.  The issue arises when the `renderItem` function tries to access a property of an item that might be undefined or null, causing a TypeError or a crash. This is often due to asynchronous data fetching where the data hasn't fully loaded when the component renders.
