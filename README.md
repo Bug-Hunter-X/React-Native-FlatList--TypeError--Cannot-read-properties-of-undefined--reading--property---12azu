@@ -1,0 +1,3 @@
+# React Native FlatList: Handling undefined properties in `renderItem`
+
+This repository demonstrates a common bug in React Native's `FlatList` component and provides a solution. The bug occurs when `renderItem` tries to access a property of an item before the data is fully loaded, leading to a `TypeError`. The solution involves using optional chaining and nullish coalescing to safely access properties.
